@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.py-4 {
+    padding: 4rem 0;
+}
+
+.py-5 {
+    padding: 5rem 0;
+}
+
+:root {
+    --yellow: #A28246;
+    --dark: #111111;
+}
+
+.container {
+    margin: auto;
+    position: relative;
+    width: 1400px;
+}
+
+.navbar {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.navbar h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.navbar p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    margin-top: 1.2rem;
+    color: var(--yellow);
+}
+
+.navbar h1 span {
+    color: var(--yellow);
+}
+
+header hr {
+    opacity: 0.5;
+}
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    height: 420px;
+    width: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards .card .card-texts {
+    margin-bottom: 1.6rem;
+}
+
+.cards .card .card-texts h1 {
+    color: #fff;
+}
+
+.cards .card .card-texts p {
+    color: var(--yellow);
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--yellow);
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2.6rem;
+    margin-top: 1rem;
+    transition: .5s all;
+}
+
+button:hover {
+    background-color: #fff;
+    color: var(--yellow);
+}
+
+/* card background photos */
+
+.cards .elise {
+    background-position: 82.8807% 13.6681%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url(/img/elise.jpg);
+
+}
+
+.cards .gwen {
+    background-position: 51.8807% 13.6681%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url(/img/gwen.jpg);
+}
+
+.cards .hecarim {
+    background-position: 85.8807% 13.6681%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url(/img/hecarim.jpg);
+}
+
+.cards .kalista {
+    background-position: 72.8807% 13.6681%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url(/img/kalista.jpg);
+}
+
+.cards .karthus {
+    background-position: 77.8807% 13.6681%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url(/img/karthus.jpg);
+}
+
+.cards .thresh {
+    background-position: 70.8807% 13.6681%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url(/img/thresh.jpg);
+}
+
+.cards .vex {
+    background-position: 70.8807% 13.6681%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url(/img/vex.jpg);
+}
+
+.cards .maokai {
+    background-position: 70.8807% 13.6681%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url(/img/maokai.jpg);
+}
+
+.cards .viego {
+    background-position: 79.8807% 13.6681%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url(/img/viego.jpg);
+}
+
+.cards .yorick {
+    background-position: 72.8807% 13.6681%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)),
+    url(/img/yorick.jpg);
+}
+
+.none {
+    display: none;
+}
+
+/* STORY */
+.story-title {
+    text-align: center;
+}
+
+.story-title h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.story-title p {
+    color: var(--yellow);
+    font-size: 1.4rem;
+    letter-spacing: 1.2rem;
+}
+
+.story-paragraph {
+    text-align: center;
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* SKİLLS */
+
+.skills-title h1{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.skills-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.skills-group .skill {
+    width: 300px;
+    text-align: center;
+}
+
+.skills-group .skill img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.skills-group .skill h3 {
+    color: var(--yellow);
+    font-weight: 400;
+}
+
+.skills-group .skill p {
+    margin-top: 1rem;
+    color: #fff;
+    opacity: 0.5;
+    font-weight: 300;
+}
+
+.skills-group .skill button {
+    margin-top: 1rem;
+}
+
+@media (max-width: 769px) {
+    .container {
+        margin: auto;
+        position: relative;
+        width: 90%;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cards .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+        height: 480px;
+        width: 320px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .story-title h1 {
+        color: #fff;
+        font-size: 2.6rem;
+    }
+    
+    .story-title p {
+        color: var(--yellow);
+        font-size: 1.2rem;
+        letter-spacing: 1.2rem;
+    }
+
+    .story-paragraph {
+        color: #fff;
+        opacity: 0.5;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .skills-title h1{
+        text-align: center;
+        color: #fff;
+        font-size: 2.6rem;
+    }
+    
+    .skills-group {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.8rem;
+    }
+    
+    .skills-group .skill {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1115px) {
+    .container {
+        margin: auto;
+        position: relative;
+        width: 85%;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .story-title h1 {
+        color: #fff;
+        font-size: 2.6rem;
+    }
+    
+    .story-title p {
+        color: var(--yellow);
+        font-size: 1.2rem;
+        letter-spacing: 1.2rem;
+    }
+
+    .story-paragraph {
+        color: #fff;
+        opacity: 0.5;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .skills-title h1{
+        text-align: center;
+        color: #fff;
+        font-size: 2.6rem;
+    }
+    
+    .skills-group {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.8rem;
+    }
+    
+    .skills-group .skill {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1116px) and (max-width: 1450px) {
+    .container {
+        margin: auto;
+        position: relative;
+        width: 95%;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .story-title h1 {
+        color: #fff;
+        font-size: 2.6rem;
+    }
+    
+    .story-title p {
+        color: var(--yellow);
+        font-size: 1.2rem;
+        letter-spacing: 1.2rem;
+    }
+
+    .story-paragraph {
+        color: #fff;
+        opacity: 0.5;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .skills-title h1{
+        text-align: center;
+        color: #fff;
+        font-size: 2.6rem;
+    }
+    
+    .skills-group {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1.8rem;
+    }
+    
+    .skills-group .skill {
+        width: 100%;
+        text-align: center;
+    }
+}
